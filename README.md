@@ -8,4 +8,11 @@ module purge
 module load fenicsx/0.5.1 
 run_fenicsx.sh python3 my_fenicx_script.py
 ```
-Please note that other versions of fenicsx are also available on SCC. You can check them using this command `module avail fenicsx`.
+or alternatively, you can use a newer version of fenicsx(0.9.0). Loading this version is a liitle different because of its dependencies:  
+```
+module purge
+module load openmpi/4.1.5_gnu-12.2.0
+module load fenicsx/0.9.0
+python3 demo_poisson.py
+```
+Please note that you can check different fenicsx versions that are available on SCC using this command `module avail fenicsx`.
