@@ -15,4 +15,4 @@ module load openmpi/4.1.5_gnu-12.2.0
 module load fenicsx/0.9.0
 python3 demo_poisson.py
 ```
-Please note that you can check different fenicsx versions that are available on SCC using this command `module avail fenicsx`.
+Please note that you can check different fenicsx versions that are available on SCC using this command `module avail fenicsx`. Also, remember that certain notations in different versions of fenicsx can be different. 
