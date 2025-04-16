@@ -24,8 +24,8 @@ python -c "import dolfinx; print(dolfinx.__version__)"
 python -c "import matplotlib; import pygmsh; print('matplotlib:', matplotlib.__version__, 'pygmsh:', pygmsh.__version__)"
 
 ```
-3. Run the `.py` file and look at the saved `.png` picture.
+3. Download and run the `.py` file and look at the saved `.png` picture. Be careful that you need to be in the same directory as the `.py` file.
 ```
-python3 my_fenicsx_script.py
+python3 demo_poisson.py
 ```   
 
