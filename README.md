@@ -1,5 +1,5 @@
 # ME700-HW4
-We start with creating and activating a conda environment. 
+1. We start with creating and activating a conda environment. 
 ```
 module load conda
 conda create --name myfenicsxenv
@@ -11,7 +11,7 @@ module load miniconda
 mamba create --name myfenicsxenv
 mamba activate myfenicsxenv
 ```
-Then we need to install
+2. Then we need to install some dependencies
 ```
 mamba install -c conda-forge fenics-dolfinx
 mamba install -c conda-forge matplotlib
@@ -24,8 +24,8 @@ python -c "import dolfinx; print(dolfinx.__version__)"
 python -c "import matplotlib; import pygmsh; print('matplotlib:', matplotlib.__version__, 'pygmsh:', pygmsh.__version__)"
 
 ```
-
-
+3. Run the `.py` file.
 ```
 python3 my_fenicsx_script.py
-```
+```   
+Or alternatively, you can run the jupyter notebook or `.ipynb` file.
