@@ -1,4 +1,4 @@
-The codes in this repository are written based on the tutorials on [this link](https://github.com/FEniCS/dolfinx/blob/main/python/demo/demo_poisson.py) and [this link](https://bleyerj.github.io/comet-fenicsx/intro/linear_elasticity/linear_elasticity.html).
+The codes in this repository are written based on the tutorials in [this link](https://github.com/FEniCS/dolfinx/blob/main/python/demo/demo_poisson.py) and [this link](https://bleyerj.github.io/comet-fenicsx/intro/linear_elasticity/linear_elasticity.html).
 
 # ME700-HW4
 1. We start with creating and activating a conda environment. 
