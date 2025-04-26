@@ -1,3 +1,5 @@
+The tutorials in this repository are 
+
 # ME700-HW4
 1. We start with creating and activating a conda environment. 
 ```
@@ -27,5 +29,17 @@ python -c "import matplotlib; import pygmsh; print('matplotlib:', matplotlib.__v
 3. Download and run the `.py` file and look at the saved `.png` picture. Be careful that you need to be in the same directory as the `.py` file.
 ```
 python3 demo_poisson.py
-```   
+```
+---
+**Running the Jupyter Notebook Tutorials**  
+In case you want to run the jupyter notebooks in [tutorials folder](https://github.com/sarajahedazad/ME700-HW4/tree/main/tutorials), you might need to install Jupyter notebook in your conda environment:
+```
+pip install jupyter
+```
+```
+cd tutorials/
+```
+```
+jupyter notebook hw4_tut_partA.ipynb
+```
 
